@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <div id="mainContainer">
+      <div id="mainContainer" >
         <h1>Todo App</h1>
         <form id="inputContainer" onSubmit={handleSubmit}>
           <input type="text" value={input} onChange={handleChange} />
